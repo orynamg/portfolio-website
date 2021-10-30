@@ -65,10 +65,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <p>
                     I am a very passionate programmer currently working on multiple projects: a Java OOP project simulating the trends of the stock market and a Python 'News Aggregator Application' that uses machine learning and NLP python libraries.
                     
+                </p> 
+                <p>
                     Additionally, I have a reasonable amount of experience in front end using Js React, Bootstrap, HTML and Sass. I pair this with Python Flask API or PHP for the backend and with MySQL for databases, creating beautiful websites. 
-                    
+                </p> 
+                <p>
                     These are some projects Ido in my spare time to extend my software engineering knowledge and build skills useful in a work environment. 
-                </p>
+                </p> 
+                
             </div>
             <div class="img-content">
                 <img src="project_resources/45A0C1BE-E234-41D5-A706-8362704A28C9.png" alt="">
@@ -87,7 +91,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div>
                 <i class="fas fa-server fa-2x"></i>
                 <h3>Backend</h3>
-                <p>Intermediate in Java, PHP, & Python Programming, as well as sqlite3 and MySQL</p>
+                <p>Intermediate in Java, PHP, & Python Programming, as well as sqlite3 and MySQL. Have some experience in JavaScript.</p>
             </div>
 
             <div>
@@ -104,8 +108,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
             <div>
                 <i class="fas fa-thumbs-up fa-2x"></i>
-                <h3>Qualities</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum suscipit porro quos magnam neque voluptas!</p>
+                <h3>Hobbies</h3>
+                <p>I am very passionate about Muay Thai and attend it multiple times a week. Am a  guitarist, artist and a writer in my spare time. Love playing poker and am the president of the Poker Society in the Queen Mary University. I am also part of the English Society, Art Society and 'Women in STEM' Society.</p>
             </div>
         </div>
     </div>

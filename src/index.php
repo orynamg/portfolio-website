@@ -59,12 +59,15 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <h3 class="section-title">About Me</h3>
                 <div class="bottom-line"></div> 
                 <p>
-                    Currently, I am a student at Queen Mary University of London studying Computer Science and Management with a Year in Industry (a programme accredited as a ‘Tech Industry Gold degree’ by theTech Partnership) looking for work / work experience in Java, Python or Frontend.
+                    Currently, I am a student at Queen Mary University of London studying Computer Science and Management looking for work in my placement year.
                 </p>
-
                
                 <p>
-                    I am a very passionate programmer currently working on multiple projects: a Java OOP project simulating the trends of the stock market and a Python News Aggregator Application that uses machine learning python and NLP libraries.  The project used Python Flask API for the backend, together with SQLite databases, and JavaScipt React and Bootstrap for front end-developing. These are some projects Ido in my spare time to extend my software engineering knowledge and build skills useful in a work environment. 
+                    I am a very passionate programmer currently working on multiple projects: a Java OOP project simulating the trends of the stock market and a Python 'News Aggregator Application' that uses machine learning and NLP python libraries.
+                    
+                    Additionally, I have a reasonable amount of experience in front end using Js React, Bootstrap, HTML and Sass. I pair this with Python Flask API or PHP for the backend and with MySQL for databases, creating beautiful websites. 
+                    
+                    These are some projects Ido in my spare time to extend my software engineering knowledge and build skills useful in a work environment. 
                 </p>
             </div>
             <div class="img-content">

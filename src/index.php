@@ -59,7 +59,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <h3 class="section-title">About Me</h3>
                 <div class="bottom-line"></div> 
                 <p>
-                    Currently, I am a student at Queen Mary University of London studying Computer Science and Management looking for work in my placement year.
+                    Currently, I am a student at Queen Mary University of London studying Computer Science and Management, looking for work in my placement year.
                 </p>
                
                 <p>
@@ -70,7 +70,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     Additionally, I have a reasonable amount of experience in front end using Js React, Bootstrap, HTML and Sass. I pair this with Python Flask API or PHP for the backend and with MySQL for databases, creating beautiful websites. 
                 </p> 
                 <p>
-                    These are some projects Ido in my spare time to extend my software engineering knowledge and build skills useful in a work environment. 
+                    These are some projects I do in my spare time to extend my software engineering knowledge and build skills useful in a work environment. 
                 </p> 
                 
             </div>
@@ -109,7 +109,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div>
                 <i class="fas fa-thumbs-up fa-2x"></i>
                 <h3>Hobbies</h3>
-                <p>I am very passionate about Muay Thai and attend it multiple times a week. Am a  guitarist, artist and a writer in my spare time. Love playing poker and am the president of the Poker Society in the Queen Mary University. I am also part of the English Society, Art Society and 'Women in STEM' Society.</p>
+                <p>I am very passionate about Muay Thai and attend it multiple times a week.</p>
+                <p>I am also a  guitarist, artist and a writer in my spare time. </p>
+                <p>I love playing poker and am the president of the Poker Society in the Queen Mary University. I am also part of the English Society, Art Society and 'Women in STEM' Society.</p>
             </div>
         </div>
     </div>

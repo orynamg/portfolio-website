@@ -167,15 +167,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div class="left">
                 <i class="fas fa-briefcase fa-4x icon"></i>
                 <h2>Thomson Reuters - London</h2>
-                <h2>August 2019 to August 2019</h2>
-                <p>I joined Refinitiv Labs for my work experience in A-Levels. I observed Labs engineering, Data Science and User Experience teams collaborating, while working on ongoing projects. I learned some of the toolsused by the teams, such as Jupiter Notebooks, Git, Visual Studio Code which I used in my A-levels projectlater. I learned the importance of data and Machine Learning in modern software services.</p>
+                <h2>August 2019</h2>
+                <p>I joined the Refinitiv Labs for my work experience during my A-Levels. It was an extremely educative experience to observe engineering, Data Science and User Experience teams collaborating on ongoing projects. I had an opportunity to interview the team leaders of each sector, expanding my understanding of the different components required to run a company. The most thought-provoking department managers I spoke to were managers of HR, the Environmental department and Finance..</p>
+                <p>
+                Additionally, I learned the tools used by the teams, such as Jupiter Notebooks, Git, Visual Studio Code which I used in my A-levels project later. I learned the importance of data and Machine Learning in modern software services
+                </p>
+
             </div>
 
             <div class="right">
                 <i class="fas fa-chart-bar fa-4x icon"></i>
                 <h2>Iris - London</h2>
                 <h2>September 2018 to December 2018</h2>
-                <p>I worked on a series of reports that visualised information about available guest orders in a Hotel company Iris. I visualised data for their main product using Matplotlib for data visualisation and Pandas for datamanipulation.</p>
+                <p>For three months, I worked on a series of reports that visualised information about available guest orders for many hotel branches for a company Iris to assist it in better understanding their data. I plotted a succession of graphs using Matplotlib for data visualisation and used Pandas for data manipulation to analyse the raw data. I have gained a lot of knowledge from this project and have built great relationships with my co-workers</p>
             </div>
         </div>
 

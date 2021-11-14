@@ -357,7 +357,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     height: 200px;
-    background-color:rgba(102, 55, 231, 0.692)
+    background-color:rgba(102, 55, 231, 0.692);    
 }
 
 .footer a {
@@ -936,6 +936,7 @@ iframe:hover {
 .settings {
     /* height: 26rem; */
     padding-top: 3rem; 
+    padding-bottom: 9rem;
 }
 
 

@@ -25,4 +25,12 @@ $link = mysqli_connect($server, $username, $password, $db);
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
+
+function console_log($data) {
+    $output = $data;
+    if (is_array($output))
+        $output = implode(',', $output);
+
+    echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+}
 ?>

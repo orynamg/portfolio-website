@@ -100,7 +100,11 @@ if (isset($_SESSION["month_filter"]) && $_SESSION["month_filter"] > 0 && $_SESSI
     $sql .= " WHERE MONTH(b.created_at) = ?";
 }
 
+// console_log($sql);
+// console_log($_SESSION["month_filter"]);
+
 if($stmt = mysqli_prepare($link, $sql)){
+    // console_log("inside");
 
     if (isset($_SESSION["month_filter"]) && $_SESSION["month_filter"] > 0 && $_SESSION["month_filter"] < 13 ) {
         mysqli_stmt_bind_param($stmt, "i", $_SESSION["month_filter"]);

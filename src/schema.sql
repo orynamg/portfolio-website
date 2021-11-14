@@ -13,6 +13,8 @@ CREATE TABLE blogs (
     user_id INT,
     title VARCHAR(255) NOT NULL,
     blog VARCHAR(1000) NOT NULL,
+    likes INT DEFAULT 0,
+    dislikes INT DEFAULT 0,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );

@@ -11,25 +11,25 @@ services:
       - ./src:/var/www/html/
     environment:
       - CLEARDB_DATABASE_URL
-  db:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    ports:
-      - 3306:3306
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-      MYSQL_ROOT_HOST: '%'
-      MYSQL_DATABASE: app1
-      MYSQL_USER: webapp
-      MYSQL_PASSWORD: webapp
-    volumes:
-      - ./sql:/docker-entrypoint-initdb.d/
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+  # db:
+  #   image: mysql
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   restart: always
+  #   ports:
+  #     - 3306:3306
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: example
+  #     MYSQL_ROOT_HOST: '%'
+  #     MYSQL_DATABASE: app1
+  #     MYSQL_USER: webapp
+  #     MYSQL_PASSWORD: webapp
+  #   volumes:
+  #     - ./sql:/docker-entrypoint-initdb.d/
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
 
 
 

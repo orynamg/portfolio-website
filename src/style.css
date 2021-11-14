@@ -212,7 +212,11 @@ a:hover {
 }
 
 .text-content {
-    margin: 2rem 0 0 3rem; 
+    margin-top: 2rem;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify; 
 }
 
 .img-content {
@@ -717,11 +721,14 @@ input {
 .contact {
     padding-top: 3rem;
     text-align: center;
+
 }
 
 .contact-container {
     max-width: 1200px;
     margin-left: 7rem;
+    margin-right: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 .text-fields {
@@ -788,7 +795,8 @@ textarea {
 
 iframe {
     filter: grayscale(100%);
-    margin-bottom: -1rem;
+    margin-bottom: -0.5rem;
+    width: 100%;
 }
 
 iframe:hover {
@@ -802,19 +810,26 @@ iframe:hover {
    
     
 }
+.project-set a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.project-set a:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
 .project-set {
     padding-top: 3rem;
     max-width: 1280px;
     display: grid;
     grid-gap: 0.5rem;
     grid-template-columns: repeat(3, 1fr);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.938); 
     align-items: center;
     text-align: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
     padding-bottom: 5rem;
-
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .project {
@@ -872,6 +887,8 @@ iframe:hover {
     width: 30rem;
     height: 100%;
     line-height: 0;
+    object-fit: cover;
+    
 
 }
 

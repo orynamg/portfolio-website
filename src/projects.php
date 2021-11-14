@@ -46,7 +46,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <h2>Take a look on what I've been working on</h2>
         <div class="project-set">
 
-            <div class="project">
+            <a href="https://github.com/orynamg/news-grid"><div class="project">
                 <div class="project-img">
                     <img src="project_resources/Screenshot 2021-03-19 at 17.38.48.png" alt="">
                 </div>
@@ -56,19 +56,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h2>Front End for a Sports Website</h2>
                     </div>
                 </div>
-            </div>
-            <div class="project">
+            </div></a>
+
+            <a href="https://github.com/orynamg/donate-easy"><div class="project">
                 <div class="project-img">
-                    <img src="project_resources/Screenshot 2021-03-19 at 17.59.21.png" alt="">
+                    <img src="project_resources/donate-easy ss.png" alt="">
                 </div>
                 <div class="project-text">
                     <div class="wrap-text">
-                        <h3>HBT</h3>
-                        <h2>Front End for a Hotel Website</h2>
+                        <h3>Donate-Easy</h3>
+                        <h2>React Application</h2>
                     </div>
                 </div>
-            </div>
-            <div class="project">
+            </div></a>
+
+            <a href="https://github.com/orynamg/blog-heads"><div class="project">
                 <div class="project-img">
                     <img src="project_resources/Screenshot 2021-03-19 at 18.04.14.png" alt="">
                 </div>
@@ -78,8 +80,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h2>Front End for a Blogging Website</h2>
                     </div>
                 </div>
-            </div>
-            <div class="project">
+            </div></a>
+
+            <a href="https://github.com/orynamg/stock-market-simulation"><div class="project">
                 <div class="project-img">
                     <img src="project_resources/Screenshot 2021-03-19 at 14.57.39.png" alt="">
                 </div>
@@ -89,19 +92,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h2>Application developed in Java</h2>
                     </div>
                 </div>
-            </div>
-            <div class="project">
+            </div></a>
+
+            <a href="https://github.com/orynamg/portfolio-website"><div class="project">
                 <div class="project-img">
-                    <img src="project_resources/Screenshot 2021-03-19 at 17.52.35.png" alt="">
+                    <img src="project_resources/portfolio site ss.png" alt="">
                 </div>
                 <div class="project-text">
                     <div class="wrap-text">
-                        <h3>Portfolio Websites</h3>
-                        <h2>Old portfolio Websites</h2>
+                        <h3>Portfolio Website</h3>
+                        <h2>Current Portfolio website</h2>
                     </div>
                 </div>
-            </div>
-            <div class="project">
+            </div></a>
+
+            <a href="https://github.com/orynamg/nea2020"><div class="project">
                 <div class="project-img">
                     <img src="project_resources/Screenshot 2021-03-19 at 17.44.20.png" alt="">
                 </div>
@@ -111,7 +116,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h2>News App using ML, NLP & Python</h2>
                     </div>
                 </div>
-            </div>
+            </div></a>
             
         </div>
     </div>

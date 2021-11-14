@@ -11,3 +11,8 @@ Connect to remote MySQL: first add MySQLWorkbench bin folder to PATH so that `my
     export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
     mysql -h host -u user dbname -p
 
+To push to heroku
+
+    git push heroku master
+
+

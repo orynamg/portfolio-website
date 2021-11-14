@@ -27,7 +27,8 @@ h3, h4 {
 }
 
 h6 {
-    font-size: 1.15rem;
+    font-size: 0.93rem;
+    font-weight: lighter;
 }
 
 h5 {
@@ -328,17 +329,18 @@ a:hover {
 }
 
 .experience-set .left {
-    /* width: 10rem; */
+    width: 50rem;
     padding-right: 2rem;
 }
 
 .experience-set .right {
-    /* width: 10rem; */
+    width: 50rem;
     padding-left: 2rem;
 }
 
-.experience-set p {
+.experience-set h6 {
     padding-top: 0.5rem;
+    text-align: justify;
 }
 
 

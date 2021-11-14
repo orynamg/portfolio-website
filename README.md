@@ -1,4 +1,4 @@
-# My protfolio website (PHP version)
+# My portfolio website (PHP version)
 
 ## Development notes 
 

@@ -22,6 +22,7 @@
 
 .text-content {
     padding: 2rem 5rem 2rem 0;
+    max-width: none;
 }
 
 #about img{
@@ -43,6 +44,30 @@
 
 .education-set div {
     padding: 3.5rem;
+}
+
+/* Experience */
+
+.experience-set {
+    flex-direction:column;
+    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.experience-set .right {
+    /* margin: 0 auto; */
+    width: 42rem;
+    /* padding-left: 0rem; */
+    padding-bottom: 4rem; 
+}
+
+.experience-set .left {
+    /* margin: 0 auto; */
+    width: 42rem;
+    /* padding-left: 1.5rem; */
+    padding-bottom: 4rem;
 }
 
 /* Blogs */
@@ -125,7 +150,7 @@ iframe {
 
 
 .settings-set {
-    padding-left: 0rem;
+    /* padding-left: 0rem; */
     flex-direction: row;
     
 }
@@ -201,7 +226,7 @@ iframe {
     
 
     #header-home {
-        margin-top: 80%;
+        margin-top: 90%;
     }
 
     .header-content {
@@ -226,15 +251,25 @@ iframe {
     .skill-set {
         grid-template-columns: repeat(1, 1fr);
     }
+
     
     @media(max-width: 490px) {
         .experience-set {
             flex-direction:column;
             padding-bottom: 3rem;
+        
         }
 
         .experience-set .right {
-            padding-left: 0rem;
+    
+            width: 17rem;
+         
+        }
+
+        .experience-set .left {
+
+            width: 17rem;
+ 
         }
     }
 

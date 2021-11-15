@@ -212,9 +212,9 @@ a:hover {
 }
 
 .text-content {
-    margin-top: 2rem;
+    margin: 2.5rem;
     max-width: 35rem;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
     text-align: justify; 
 }
@@ -309,6 +309,7 @@ a:hover {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 10rem;
+    grid-gap: 2rem;
 }
 
 .icon {
@@ -334,12 +335,12 @@ a:hover {
 
 .experience-set .left {
     width: 50rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 
 .experience-set .right {
     width: 50rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
 }
 
 .experience-set h6 {

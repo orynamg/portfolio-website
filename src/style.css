@@ -216,11 +216,8 @@ a:hover {
 
 .text-content {
     padding: 2.5rem;
-    /* max-width: 35rem; */
-    /* margin-left: auto; */
+    max-width: 35rem;
     text-align: center; 
-    align-items: center;
-    background-color: rgb(127, 182, 255);
     margin-left: auto;
     margin-right: auto;
     

@@ -210,17 +210,15 @@ a:hover {
 .about-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 .text-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 2.5rem;
     max-width: 35rem;
     /* margin-left: auto; */
     margin-right: auto;
-    text-align: center; 
+    text-align: justify; 
     background-color: aquamarine;
     
 }

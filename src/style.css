@@ -210,7 +210,7 @@ a:hover {
 .about-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .text-content {

@@ -203,6 +203,7 @@ a:hover {
     margin-top: 0rem; 
     /* height: 100%; */
     background-color:rgba(102, 55, 231, 0.692) ;
+    max-width: 1200px;
 
 }
 
@@ -217,7 +218,7 @@ a:hover {
     /* margin-left: auto; */
     margin-right: auto;
     text-align: justify; 
-    max-width: 1200px;
+    
 }
 
 .img-content {
